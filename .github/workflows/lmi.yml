@@ -12,14 +12,16 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-
   #KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/lmi_kernel_xiaomi_sm8250.git"
   #KERNEL_BRANCH : "aosp-14"  
+  
+  #KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
+  #KERNEL_BRANCH : "android14-stable-mod" 
+  
+  KERNEL_SOURCE : "https://github.com/Flicker-Android-Devices/kernel_xiaomi_sm8250.git"
+  KERNEL_BRANCH : "seventeen" 
 
   
-  KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
-  KERNEL_BRANCH : "android14-stable-mod" 
-
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
 
