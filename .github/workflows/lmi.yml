@@ -1,4 +1,4 @@
-name: lmi-a14
+name: lmi
 
 on:
   workflow_call:
@@ -13,8 +13,12 @@ env:
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
 
-  KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/lmi_kernel_xiaomi_sm8250.git"
-  KERNEL_BRANCH : "aosp-14"
+  #KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/lmi_kernel_xiaomi_sm8250.git"
+  #KERNEL_BRANCH : "aosp-14"  
+
+  
+  KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
+  KERNEL_BRANCH : "aandroid15-lineage22-mod"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
@@ -34,7 +38,7 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "rsuntk" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "next" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : false
   SUSFS_FIXED : false
