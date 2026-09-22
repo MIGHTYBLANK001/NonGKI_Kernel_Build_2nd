@@ -158,12 +158,12 @@ runs:
             elif [[ "${{ env.KERNELSU_AUTO_FORK }}" == "next" ]]; then
                 KERNELSU_AUTHOR="KernelSU-Next"
                 KERNELSU_NAME="KernelSU-Next"
-                KERNELSU_ORIGIN_BRANCH="legacy"
+                KERNELSU_ORIGIN_BRANCH="dev"
                 if [[ "${{ env.SUSFS_ENABLE }}" == "true" ]]; then
                     echo "[-] ${{ env.KERNELSU_AUTO_FORK }} doesn't support SUSFS! "
                     false
                 else
-                    KERNELSU_BRANCH="legacy"
+                    KERNELSU_BRANCH="dev"
                 fi
 
             elif [[ "${{ env.KERNELSU_AUTO_FORK }}" == "resukisu" ]]; then
