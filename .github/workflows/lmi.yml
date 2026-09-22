@@ -12,11 +12,11 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  #KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/lmi_kernel_xiaomi_sm8250.git"
-  #KERNEL_BRANCH : "aosp-14"  
+  KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/lmi_kernel_xiaomi_sm8250.git"
+  KERNEL_BRANCH : "aosp-14"  
   
-  KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
-  KERNEL_BRANCH : "android14-stable-mod" 
+  #KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
+  #KERNEL_BRANCH : "android14-stable-mod" 
   
   #KERNEL_SOURCE : "https://github.com/Flicker-Android-Devices/kernel_xiaomi_sm8250.git"
   #KERNEL_BRANCH : "seventeen" 
@@ -40,7 +40,7 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "resukisu" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "next" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : false
   SUSFS_FIXED : false
@@ -85,10 +85,10 @@ env:
   BASEBAND_GUARD_ENABLE: "false" #if u want prevent unauthorized writes to critical partitions/device nodes.
   BASEBAND_GUARD_BOOT: "false" #if u want to protect boot partition.
 
-  GENERATE_DTB: "false" # if u kernel need DTB , but cannot auto generate it. (Only Anykernel3).
+  GENERATE_DTB: "true" # if u kernel need DTB , but cannot auto generate it. (Only Anykernel3).
   GENERATE_CHIP: "qcom" # only supported for qcom and mediatek.
 
-  BUILD_DEBUGGER: "false" # Output build errors.
+  BUILD_DEBUGGER: "true" # Output build errors.
   SKIP_PATCH: "false" # Ignore errors found in Patch Debugger.
 
   BUILD_OTHER_CONFIG: "false" # Merge config files.
