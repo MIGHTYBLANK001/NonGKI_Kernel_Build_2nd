@@ -1,4 +1,4 @@
-name: picasso-a16.yml
+name: picasso
 on:
   workflow_call:
   workflow_dispatch:
@@ -15,7 +15,8 @@ env:
   KERNEL_SOURCE : "https://github.com/Akitlove/kernel_xiaomi_sm7250-caf.git"
   KERNEL_BRANCH : "16"
 
-  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
+  #CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
+  CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"  
   CLANG_BRANCH : ""
 
   GCC_GNU : false
@@ -33,7 +34,7 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "rsuntk" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "resukisu" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : false
   SUSFS_FIXED : false
@@ -46,7 +47,7 @@ env:
   NEED_DTBO : false
   NEED_SAFE_DTBO : false
 
-  ROM_TEXT : "ksu-droidspace"
+  ROM_TEXT : "ksu-droidspaces"
 
   # Other env
   PYTHON_VERSION: "3" # Only 2(Ubuntu 22.04 and Ubuntu 20.04) or 3(Any OS Versions).
