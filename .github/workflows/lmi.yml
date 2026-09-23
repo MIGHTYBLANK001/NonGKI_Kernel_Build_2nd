@@ -16,7 +16,7 @@ env:
   #KERNEL_BRANCH : "aosp-14"  
   
   #KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
-  #KERNEL_BRANCH : "android14-stable-mod" 
+  #KERNEL_BRANCH : "android15-lineage22-mod" 
   
   KERNEL_SOURCE : "https://github.com/Flicker-Android-Devices/kernel_xiaomi_sm8250.git"
   KERNEL_BRANCH : "fifteen" 
@@ -39,7 +39,7 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "next" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "resukisu" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : false
   SUSFS_FIXED : false
