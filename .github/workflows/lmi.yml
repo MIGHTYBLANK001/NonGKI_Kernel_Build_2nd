@@ -21,8 +21,11 @@ env:
   #KERNEL_SOURCE : "https://github.com/Flicker-Android-Devices/kernel_xiaomi_sm8250.git"
   #KERNEL_BRANCH : "seventeen" 
   
-  KERNEL_SOURCE : "https://github.com/AstideLabs/android_kernel_xiaomi_sm8250.git"
-  KERNEL_BRANCH : "android17-aptusitu" 
+  #KERNEL_SOURCE : "https://github.com/AstideLabs/android_kernel_xiaomi_sm8250.git"
+  #KERNEL_BRANCH : "android17-aptusitu" 
+  
+  KERNEL_SOURCE : "https://github.com/raystef66/kernel_xiaomi_sm8250.git"
+  KERNEL_BRANCH : "16.0-lmi" 
 
   CLANG_SOURCE: "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"
   CLANG_BRANCH: ""
@@ -45,10 +48,10 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "resukisu" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "next" # magic, rsuntk, next, resukisu and sukisu
 
-  SUSFS_ENABLE : true
-  SUSFS_FIXED : true
+  SUSFS_ENABLE : false
+  SUSFS_FIXED : false
 
   AK3_SOURCE : "https://github.com/osm0sis/AnyKernel3.git"
   AK3_BRANCH : "master"
