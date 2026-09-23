@@ -25,13 +25,13 @@ env:
   #KERNEL_BRANCH : "android17-aptusitu" 
   
   KERNEL_SOURCE : "https://github.com/raystef66/kernel_xiaomi_sm8250.git"
-  KERNEL_BRANCH : "16.0-lmi" 
+  KERNEL_BRANCH : "15.0-lmi" 
 
-  CLANG_SOURCE: "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"
-  CLANG_BRANCH: ""
+  #CLANG_SOURCE: "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"
+  #CLANG_BRANCH: ""
   
-  #CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
-  #CLANG_BRANCH : ""
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
+  CLANG_BRANCH : ""
 
   GCC_GNU : false
   GCC_64_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.git"
