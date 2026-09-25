@@ -13,8 +13,8 @@ env:
   #hhttps://github.com/Akitlove/kernel_xiaomi_sm7250-caf/blob/16/arch/arm64/configs/picasso_defconfig
   #arch/arm64/configs/picasso_user_defconfig  https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250/blob/13.0/arch/arm64/configs/picasso_user_defconfig
   #https://github.com/aaabbh/android_kernel_xiaomi_sm7250/blob/stable/arch/arm64/configs/vendor/picasso_defconfig
-  KERNEL_SOURCE : "https://github.com/aaabbh/android_kernel_xiaomi_sm7250.git"
-  KERNEL_BRANCH : "stable"  
+  KERNEL_SOURCE : "https://github.com/Akitlove/kernel_xiaomi_sm7250-caf.git"
+  KERNEL_BRANCH : "caf-aosp-bak"  
   #KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250.git"
   #KERNEL_BRANCH : "13.0"
 
