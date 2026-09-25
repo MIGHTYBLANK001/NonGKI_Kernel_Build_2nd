@@ -13,10 +13,10 @@ env:
   #hhttps://github.com/Akitlove/kernel_xiaomi_sm7250-caf/blob/16/arch/arm64/configs/picasso_defconfig
 
   KERNEL_SOURCE : "https://github.com/Akitlove/kernel_xiaomi_sm7250-caf.git"
-  KERNEL_BRANCH : "16"
+  KERNEL_BRANCH : "kernel.lnx.4.19.r37-rel"
 
-  #CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
-  CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"  
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
+  #CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"  
   CLANG_BRANCH : ""
 
   GCC_GNU : false
