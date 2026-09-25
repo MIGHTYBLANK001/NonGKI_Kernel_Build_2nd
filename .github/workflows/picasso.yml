@@ -18,8 +18,8 @@ env:
   KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250.git"
   KERNEL_BRANCH : "13.0"
 
-  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
-  #CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"  
+   #CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
+  CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/16.0.6-20260807-release/Clang-16.0.6-20260807.tar.gz"  
   CLANG_BRANCH : ""
 
   GCC_GNU : false
@@ -37,7 +37,7 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "resukisu" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "next" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : false
   SUSFS_FIXED : false
