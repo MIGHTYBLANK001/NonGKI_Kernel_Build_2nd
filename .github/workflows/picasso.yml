@@ -12,9 +12,9 @@ env:
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
   #hhttps://github.com/Akitlove/kernel_xiaomi_sm7250-caf/blob/16/arch/arm64/configs/picasso_defconfig
   #arch/arm64/configs/picasso_user_defconfig  https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250/blob/13.0/arch/arm64/configs/picasso_user_defconfig
-  #https://github.com/aaabbh/android_kernel_xiaomi_sm7250/blob/stable/arch/arm64/configs/vendor/picasso_defconfig
-  KERNEL_SOURCE : "https://github.com/Akitlove/kernel_xiaomi_sm7250-caf.git"
-  KERNEL_BRANCH : "caf-aosp-bak"  
+  #https://github.com/aaabbh/android_kernel_xiaomi_sm7250/blob/stable/arch/arm64/configs/vendor/picasso_defconfig  https://github.com/EndCredits/kernel_xiaomi_sm7250/blob/picasso-r-oss/arch/arm64/configs/picasso_user_defconfig
+  KERNEL_SOURCE : "https://github.com/EndCredits/kernel_xiaomi_sm7250.git"
+  KERNEL_BRANCH : "picasso-r-oss"  
   #KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250.git"
   #KERNEL_BRANCH : "13.0"
 
@@ -29,7 +29,7 @@ env:
   GCC_32_BRANCH : "android12L-release"
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "vendor/picasso_defconfig"
+  DEFCONFIG_NAME : "picasso_user_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
