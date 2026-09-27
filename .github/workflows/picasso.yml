@@ -14,10 +14,10 @@ env:
   #arch/arm64/configs/picasso_user_defconfig  https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250/blob/13.0/arch/arm64/configs/picasso_user_defconfig
   #https://github.com/aaabbh/android_kernel_xiaomi_sm7250/blob/stable/arch/arm64/configs/vendor/picasso_defconfig  https://github.com/EndCredits/kernel_xiaomi_sm7250/blob/picasso-r-oss/arch/arm64/configs/picasso_user_defconfig
 
-  #arch/arm64/configs/vendor/picasso_user_defconfighttps://github.com/LineageOS/android_kernel_xiaomi_sm7250/blob/lineage-19.1/arch/arm64/configs/vendor/picasso_user_defconfig
+  #arch/arm64/configs/vendor/picasso_user_defconfighttps://github.com/LineageOS/android_kernel_xiaomi_sm7250/blob/lineage-19.1/arch/arm64/configs/vendor/picasso_user_defconfig  https://github.com/crdroidandroid/android_kernel_xiaomi_sm7250/blob/13.0/arch/arm64/configs/picasso_user_defconfig
   
-  KERNEL_SOURCE : "https://github.com/LineageOS/android_kernel_xiaomi_sm7250.git"
-  KERNEL_BRANCH : "lineage-19.1"  
+  KERNEL_SOURCE : "https://github.com/crdroidandroid/android_kernel_xiaomi_sm7250.git"
+  KERNEL_BRANCH : "13.0"  
   #KERNEL_SOURCE : "https://github.com/MIGHTYBLANK001/picasso-android_kernel_xiaomi_sm7250.git"
   #KERNEL_BRANCH : "13.0"
 
